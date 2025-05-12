@@ -1,9 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<!-- ICS2O-Unit-5-02-HTML-MDL-PWA -->
+<html lang="en-ca">
+
+<head>
+  
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-status-bar-style" content="black" />
+    <meta name="description" content="My first PWA" />
+    <meta name="keywords" content="mths, ics2o" />
+    <meta name="author" content="Isaac Ip" />
+    <meta name="theme-color" content="#FFFFFF" />
+  <title>Positive and Negative #, in JS PWA</title>
+      <!--- None blocking for Lighthouse report --->
+    <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+    </noscript>
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css"
+      />
+    </noscript>
+</head>
+
+<body>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="./js/script.js"></script>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Positive and Negative #, in JS PWA</span>
+      </div>
+    </header>
+      <main class="mdl-layout__content">
+      <div class="right-image">
+        <img src="./images/positive_negative.svg" alt="positive_negative">
+    <h1>&nbsp Select what kind of number you would like:</h1>
+
+      </div>
+      <!-- Numeric radio for number-->
+      <div></div>
+      <form action="#">
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-positive">
+          <input type="radio" id="option-positive" class="mdl-radio__button" name="kind-of-number" value="1" checked>
+          <span class="mdl-radio__label">Positive</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-negative">
+          <input type="radio" id="option-negative" class="mdl-radio__button" name="kind-of-number" value="2">
+          <span class="mdl-radio__label">Negative</span>
+        </label>  
+        <br>
+        <br>
+        <!-- Raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="generateNumber()" type="button">
+          Generate
+        </button>
+      </form>
+      <div id="result">
+        <p>The random number is:</p>
+      </div>
+      <br />
+    </main>
+  </div>
+</body>
+
 </html>
+
+
