@@ -1,40 +1,34 @@
 /* Created by: Isaac Ip
-* Created on: Apr 2025
+* Created on: May 2025
 * This file contains the CSS for index.html
 */
 
 .mdl-layout__header-row {
-    justify-content: center;
-    padding: 0;
+  justify-content: left;
+  padding: 1;
 }
 
 .mdl-layout__content {
-    padding-left: 15pt;
-    padding-right: 15pt;
-    padding-top: 15pt;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
 }
 
 .mdl-textfield__error {
-    color: lightgreen;
+  color: rgb(224, 85, 85);
 }
 
 .page-content {
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.25rem;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, monospace;
+  font-size: 1.25rem;
 }
 
 body {
-    background-color: cornflowerblue;
+  background-color: rgb(219, 248, 250);
 }
 
 img {
-    float: right;
-    height: 200px;
-}
-
-h1 {
-    font-size: larger;
-    font-family: monospace;
-    color: white;
+  float: right;
+  height: 200px;
 }
