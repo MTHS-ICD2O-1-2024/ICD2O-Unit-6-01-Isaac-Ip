@@ -1,7 +1,7 @@
 // Copyright (c) 2025 Isaac Ip All rights reserved
 //
 // Created by: Isaac Ip
-// Created on: Apr 2025
+// Created on: May 2025
 // This file contains the JS functions for index.html
 
 "use strict"

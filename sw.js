@@ -1,4 +1,4 @@
-var GHPATH = "/ICD2O-Unit-6-01-isaac-ip"
+var GHPATH = "/github-page-pwa"
 var APP_PREFIX = "gppwa_"
 var VERSION = "version_001"
 var URLS = [

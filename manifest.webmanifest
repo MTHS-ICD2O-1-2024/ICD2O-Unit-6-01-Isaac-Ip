@@ -1,9 +1,9 @@
 {
-  "name": "Isaac's app",
+  "name": "Isaac's App",
   "short_name": "Isaac's App",
   "description": "Github Page for Isaac's App",
-  "scope": "/ICD2O-Unit-6-01-isaac-ip/",
-  "start_url": "/ICD2O-Unit-6-01-isaac-ip/",
+  "scope": "/ICD2O-Unit-6-01-Isaac-Ip/",
+  "start_url": "/ICD2O-Unit-6-01-Isaac-Ip/",
   "permissions": [ 
     "unlimitedStorage",
     "fullscreen"
