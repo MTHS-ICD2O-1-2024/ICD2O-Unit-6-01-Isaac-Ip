@@ -1,9 +1,9 @@
 {
-  "name": "ICD20 Unit 5-02 Isaac Ip",
-  "short_name": "ICD20 Unit 5-02 Isaac Ip",
-  "description": "Github Page for ICD20 Unit 5-02 Isaac Ip",
-  "scope": "/ICD2O-Unit-6-01-Isaac-Ip/",
-  "start_url": "/ICD2O-Unit-6-01-Isaac-Ip/",
+  "name": "Isaac's app",
+  "short_name": "Isaac's App",
+  "description": "Github Page for Isaac's App",
+  "scope": "/ICD2O-Unit-6-01-isaac-ip/",
+  "start_url": "/ICD2O-Unit-6-01-isaac-ip/",
   "permissions": [ 
     "unlimitedStorage",
     "fullscreen"
